@@ -1,0 +1,96 @@
+body {
+    background-color: #fcf8ec;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 20px;
+}
+
+.form-group {
+  align-self: center;
+  width: 100px;
+  padding: 5px;
+}
+
+.form-auth-group {
+  padding: 5px;
+}
+
+#labelName {
+    align-self: center;
+    width: 20%;
+}
+
+#submitBtn {
+  align-self: center;
+  width: 100px;
+}
+
+#deleteBtn {
+  align-self: center;
+  width: 175px;
+}
+
+.qr-code {
+  align-self: center;
+  width: 200px;
+  height: 200px;
+}
+
+.list-card {
+  padding: 5px;
+  margin: 5px;
+}
+
+.box-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-header img {
+  width: 80px;
+  height: 80px;
+}
+
+#spacer {
+  width: 80px;
+  height: 80px;
+}
+
+.box-card-grid-container {
+  display: grid;
+  grid-template-columns: 450px 450px 450px;
+  grid-template-rows: auto auto auto; 
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.color-picker {
+  position: fixed
+}
+
+#form-header {
+  background-color: #e6dfc8;
+}
